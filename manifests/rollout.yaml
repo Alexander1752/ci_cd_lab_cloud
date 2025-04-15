@@ -25,8 +25,8 @@ spec:
       containers:
         - name: webserver
 #          image: ghcr.io/alexander1752/ci_cd_lab_cloud@sha256:32b36eba3fa14812fdb586d57972ffa1078e5562bebedf51d6ba486f6e334f61
-#          image: ghcr.io/alexander1752/ci_cd_lab_cloud:latest
-          image: ghcr.io/basescu/ci_cd_lab_cloud:latest
+          image: ghcr.io/alexander1752/ci_cd_lab_cloud:latest
+#          image: ghcr.io/basescu/ci_cd_lab_cloud:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
